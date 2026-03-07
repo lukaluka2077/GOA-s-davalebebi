@@ -1,0 +1,10 @@
+print(5-3)
+print(5/2)
+name=("luka")
+print(name)
+age=14
+print(age)
+color=("white")
+print(color)
+item=("i+love+georgia")
+print(item)
