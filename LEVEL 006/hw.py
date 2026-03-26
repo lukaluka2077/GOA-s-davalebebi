@@ -13,27 +13,36 @@
 
 #8) მომხმარებელს შემოატანინეთ სახელი, გვარი, ასაკი, სიმაღლე, წონა და ამ მონაცემების გამოყენებით დაბეჭდეთ ერთი დიდი წინადადება.
 
-#2)input-არის მაგალითად და მოკლედ რომ ვთქვათ ნივთი რომელლსაც ვმართავთ და ვაკონთროლებთ
-#output-არის რასაც ჩვენით ვერ ვაკონტროლებთ მაგალითად დინამიკი მონიტორი მაგრამ პითონში მას სულ სხვა ახსნა აქვს 
+#2)input-არის მაგალითად და მოკლედ რომ ვთქვათ ნივთი რომელლსაც ვმართავთ და ვაკონთროლებთ ანუ სემავალი ინფოირმაცია
+#output-არის რასაც ჩვენით ვერ ვაკონტროლებთ მაგალითად დინამიკი მონიტორი მაგრამ პითონში მას სულ სხვა ახსნილობა აქვს იგი მოიაზრება როგორც გამავალ ინფორმაციად
 
 #3)
 name=input("enter your name:")
-print(name)
+print(type(name))
 
 #4)
 string="hello world"
-print(string)
+ #tipe str
 integer=15
-print(integer)
+#type int
 integer2=114
-print(integer2)
+#type int
 float=12.1
-print(float)
+#type float
 string2="goodbye"
-print(string2)
+#type str
 
 #5)
-
+location="tbilisi"
+print(type(location))
+age=9
+print(type(age))
+fav_nummber=7.9
+print(type(fav_nummber))
+#6)
+name=input("enter your name :0")
+name2=input("enter your name :)")
+print( name + name2 )
 #7)
 num1=input("enter your nummber:")
 print(num1)
@@ -45,7 +54,7 @@ num4=input("enter your nummber:")
 print(num4)
 print(num1 + num2+num3+num4 / 5)
 
-#7)
+#8)
 name=input("enter your name:")
 print(name)
 last_name=input("enter your last name:")
@@ -56,3 +65,4 @@ height=input("enter your height:")
 print(height)
 weight=input("enter your weight:")
 print(weight)
+print(f"my name is , {name} last name is {last_name} my age is{age} my height is {height} my weight is {weight}" )
